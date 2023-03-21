@@ -1,0 +1,14 @@
+.center{
+    margin: 0;
+    padding: 5px 10px;
+    background-color: rgb(180, 232, 232);
+    width: 600px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+ 
+.center h1{
+    text-align: center;
+    font-size: 600;
+}

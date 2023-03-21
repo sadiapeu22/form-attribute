@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+    <!-- <link rel="stylesheet" href="css/admission-form.css"> -->
+</head>
+<body>
+    <div class="center">
+        <h1 class="head" id="head">Student Registration Form</h1>
+        <form action="form">
+            <div>
+                <img src="images/about-us-hero-image-t.jpg" alt="images" height="200px" width="100%" class="images" id="images">
+                <br>
+                <br>
+                <div>
+                    <label for="A">Student Name: </label><input type="text" id="A" class="A" placeholder="Enter Your Name">
+                    <br>
+                    <br>
+                    <label for="B">Student ID: </label><input type="number" id="B" class="B" placeholder="Enter Your ID">
+                    <br>
+                    <br>
+                    <label for="C">Email: </label><input type="email" id="C" class="C" placeholder="Enter Your Email">
+                    <br>
+                    <br>
+                    <label for="D">Username: </label><input type="text" id="D" class="D" placeholder="Enter Your username">
+                    <br>
+                    <br>
+                    <label for="E">Password: </label><input type="password" id="E" class="E" placeholder="Enter Password">
+                    <br>
+                    <br>
+                    <label for="Birth">Date Of Birth: </label><input type="date" id="Birth" class="Birth" placeholder="Enter Date Of Birth">
+                   <br>
+                    <br>
+                    <p>
+                        Gender: <br>
+                            <select name="gender" id="gender">
+                               <option value="M">Male</option>
+                               <option value="F">Female</option>
+                               <option value="O">Others</option>
+                            </select> 
+                    </p>
+                    <p>
+                        Language: <br>
+                        <input type="checkbox" name="language" id="language">Bangla <br>
+                        <input type="checkbox" name="language" id="language">English <br>
+                        <input type="checkbox" name="language" id="language">Urdhu
+                    </p>
+                    <p>
+                        Country: <br>
+                        <select name="country" id="country">
+                            <option>Please select your country</option>
+                            <option value="B">Bangladesh</option>
+                            <option value="I">India</option>
+                        </select>
+                    </p>
+                    
+                    <label for="Address">Address</label><br>
+                    <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter Your Address"></textarea>
+                    <br>
+                    <p>
+                        Attach Your Documents: <br>
+                        <input type="file" name="Documents" id="document">
+                    </p>
+                    <p>
+                        <input type="submit" name="" id="Submit">
+                        <input type="reset" name="" id="Reset">
+                    </p>
+
+                    <a href="https://green.edu.bd/">Forget Password</a>
+
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
